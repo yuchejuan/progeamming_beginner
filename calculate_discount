@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+  float cost,discount,paid;
+  cout<<"Enter your total cost :\n";
+  cin>>cost>>endl;
+  
+  if(cost>500)
+  {
+    discount=cost*20/100;
+   }
+   else if(cost>=100 && cost<500)
+   {
+    discount=cost*10/100;
+   }
+  cout<<"Your discount is :"<<discount;
+  paid=cost-dicount;
+  cout<<"You need to paid :"<<paid;
+  return 0;
+
+}
